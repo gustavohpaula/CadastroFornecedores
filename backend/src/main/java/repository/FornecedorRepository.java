@@ -45,7 +45,7 @@ public class FornecedorRepository {
 		fornecedores.remove(cnpj);
 	}
 
-	private boolean checkEmail(String email) throws Exception {
+	public boolean checkEmail(String email) throws Exception {
 		String EMAIL_PATTERN = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
 				+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 
